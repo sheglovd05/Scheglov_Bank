@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>Scheglov.Bank.Demo</RootNamespace>
+    <AssemblyName>Scheglov.Bank.Demo</AssemblyName>
+    <Authors>Щеглов Даниил Никитич</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Scheglov.Bank\Scheglov.Bank.csproj" />
+  </ItemGroup>
+
+</Project>
